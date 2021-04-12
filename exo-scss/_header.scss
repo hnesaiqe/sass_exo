@@ -1,0 +1,23 @@
+.header {
+
+    justify-content: space-around;
+    display: flex;
+    height: 30vh;
+
+        &__logo {
+            padding-right: 60%;
+            font-size: 28px;
+        }
+
+        &__menu {
+            font-size: 16px;
+            padding-top: 25px;
+            font-weight: bold;
+
+        }
+
+        &__menu a {
+            color: white;
+            text-decoration: none;
+        }
+}

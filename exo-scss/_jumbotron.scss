@@ -1,0 +1,13 @@
+.jumbotron {
+
+text-align: center; 
+
+    &__title {
+    font-size: 45px;
+    
+    }
+
+    &__paragraphe {
+        font-size:1.25rem;
+    }
+}

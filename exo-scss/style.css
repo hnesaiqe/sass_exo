@@ -1,0 +1,66 @@
+.header {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vh;
+}
+
+.header__logo {
+  padding-right: 60%;
+  font-size: 28px;
+}
+
+.header__menu {
+  font-size: 16px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.header__menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron__title {
+  font-size: 45px;
+}
+
+.jumbotron__paragraphe {
+  font-size: 1.25rem;
+}
+
+.footer {
+  text-align: center;
+  color: grey;
+  margin-top: 30%;
+}
+
+.footer__paragraphe > a {
+  color: white;
+}
+
+body {
+  background-color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  padding-right: 33%;
+  padding-left: 33%;
+}
+
+.btn {
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
